@@ -1,2 +1,2 @@
 # Shopping_Application
- Shopping App
+ Shapping App
