@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="icon" href="../image/intro.svg">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">Shopping App</h2>
+        <nav class="navbar">
+            <a class="home" href="#">Home</a>
+            <a href="../cart/cart.html">My Cart</a>
+            <a href="./profile.html">My Profile</a>
+            <a class="logout" href="#">Logout</a>
+        </nav>
+    </header>
+
+    <form class="container">
+        <h1>My Profile</h1>
+        <div class="my-profile-input">
+            <input id="First-name" type="text" placeholder="First Name" required>
+            <input id="Last-name" type="text" placeholder="Last Name" required>
+        </div>
+        <button id="save-info-btn" type="button">Save Info</button>
+
+        <h1>Edit Password</h1>
+        <div class="edit-password">
+            <input id="old-password" type="password" placeholder="Old Password" required>
+            <input id="new-password" type="password" placeholder="New Password" required>
+            <input id="confirm-new-password" type="password" placeholder="Confirm New Password" required>
+        </div>
+
+        <button id="change-password-btn" type="button">Change Password</button>
+        
+        <button id="logout-btn" type="button">Log out</button>
+    </form>
+
+<!--
+    <div class="container">
+        <div class="profile">
+            <h3><u>My Profile</u></h3>
+            <p>First Name: <strong><span class="first-name"></span></strong></p>
+            <p>Last Name: <strong><span class="last-name"></span></strong></p>
+            <p>Email: <strong><span class="email">My Email</span></strong></p>
+        </div>
+        <div class="change">
+            <h3><u>Change Password</u></h3>
+            <button class="changePass">Click Here</button>
+        </div>
+    </div>
+    <div class="changePassword hide">
+        <div class="notification"></div>
+        <form>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="oldPassword" placeholder="Old Password"
+                    aria-describedby="oldPasswordHelp">
+                <div id="oldPasswordHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="newPassword" placeholder="New Password"
+                    aria-describedby="newPasswordHelp">
+                <div id="newPasswordHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="confirmNewPassword" placeholder="Confirm New Password"
+                    aria-describedby="confirmNewPasswordHelp">
+                <div id="confirmNewPasswordHelp" class="form-text"></div>
+            </div>
+
+            <button type="button" class="btn btn-primary" id="change">Change</button>
+            <button type="button" class="btn btn-primary" id="logout">Logout</button>
+        </form>
+    </div>
+-->
+    <script src="./profile.js"></script>
+</body>
+
+</html>
